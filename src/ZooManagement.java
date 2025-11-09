@@ -21,7 +21,6 @@ public class ZooManagement {
         } else {
             System.out.println(zooName + " comporte " + nbrCages + " cages");
         }
-
         sc.close();
     }
 }
