@@ -1,8 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-         zoo zoo1 = new zoo("Zoo de Tunis", "Tunis");
-          zoo zoo2 = new zoo("Zoo de Sousse", "Sousse");
+        zoo myZoo = new zoo("Zoo de Tunis", "Tunis");
+        /*zoo zoo1 = new zoo("Zoo de Tunis", "Tunis");
+          zoo zoo2 = new zoo("Zoo de Sousse", "Sousse");*/
 
         Animal lion = new Animal("Felidae", "Lion", 5, true);
         Animal elephant = new Animal("Elephantidae", "Éléphant", 10, true);
@@ -10,7 +11,16 @@ public class Main {
         Animal lion2 = new Animal("Felidae", "Lion", 5, true);
         Animal tigre = new Animal("Felidae", "Tigre", 4, true);
 
-        zoo1.addAnimal(lion);
+        myZoo.addAnimal(lion);
+        myZoo.addAnimal(lion);
+        for (int i = 0; i < 25; i++) {
+            myZoo.addAnimal(new Animal("AnimalFam" + i, "Animal" + i, 2, true));
+        }
+        myZoo.addAnimal(new Animal("Felidae", "Tigre", 4, true));
+    }
+}
+        /*zoo1.addAnimal(lion);
+        myzoo.addAnimal(lion);
         zoo1.addAnimal(tigre);
         zoo2.addAnimal(crocodile);
 
@@ -21,7 +31,7 @@ public class Main {
         zoo plusGrand = zoo1.compareZoo(zoo2);
         System.out.println("Le zoo avec le plus d’animaux est : " + plusGrand.name);
     }
-}
+}*/
         /*zoo2.addAnimal(crocodile);
         myZoo.addAnimal(lion);
         myZoo.addAnimal(elephant);
