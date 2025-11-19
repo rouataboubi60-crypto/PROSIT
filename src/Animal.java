@@ -46,6 +46,9 @@ public class Animal {
         public String toString() {
             return "Animal [famille=" + family + ", nom=" + name + ", âge=" + age + ", mammifère=" + isMammal + "]";
         }
+    public void swim() {
+        // vide par défaut, certains animaux ne nagent pas
+    }
     }
     /*public void afficherInfo() {
         System.out.println(this.toString());
