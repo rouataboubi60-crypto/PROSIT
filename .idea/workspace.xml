@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="dd5098f7-9e38-40f5-b665-38e4a79429d1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/main/ZooManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Aquatic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Aquatic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Dolphin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Dolphin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Penguin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Penguin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Terrestrial.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tn/esprit/gestionzoo/entities/Terrestrial.java" afterDir="false" />
-    </list>
+    <list default="true" id="dd5098f7-9e38-40f5-b665-38e4a79429d1" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -94,7 +87,7 @@
       <workItem from="1763496688125" duration="117000" />
       <workItem from="1763498635418" duration="96000" />
       <workItem from="1763505697722" duration="643000" />
-      <workItem from="1763553484014" duration="2552000" />
+      <workItem from="1763553484014" duration="2860000" />
     </task>
     <servers />
   </component>
